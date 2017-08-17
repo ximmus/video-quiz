@@ -2,15 +2,19 @@
 	"folders":
 	[
 		{
-			"path": ".",
-			"name": "Video Quiz",
-			"file_exclude_patterns": [
+			"file_exclude_patterns":
+			[
 				"*.sublime-project",
 				"*.sublime-workspace",
 				".gitignore",
 				".gitattributes",
 				"prepros-6.config"
-			]
+			],
+			"name": "Video Quiz",
+			"path": "."
+		},
+		{
+			"path": "C:\\Users\\smixon\\Documents\\GitHub\\Sublime Projects\\starter-project - Copy"
 		}
 	]
 }
