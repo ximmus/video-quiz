@@ -1,5 +1,9 @@
-$main-color: #666666;
+// Reset
+@import "vendor/normalize";
 
-body{
-	background-color: $main-color;
-}
+// Modules and Variables
+@import "modules/color";
+
+// Partials
+
+// Third-party

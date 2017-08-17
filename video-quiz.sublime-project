@@ -3,12 +3,13 @@
 	[
 		{
 			"path": ".",
-			"name": "Project Name",
+			"name": "Video Quiz",
 			"file_exclude_patterns": [
 				"*.sublime-project",
 				"*.sublime-workspace",
 				".gitignore",
-				".gitattributes"
+				".gitattributes",
+				"prepros-6.config"
 			]
 		}
 	]
