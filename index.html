@@ -8,5 +8,46 @@
 </head>
 <body>
 	<h1>Video Quiz</h1>
+	<video id="video" src="src/eclipse.mp4" width="600px" poster="">
+		Sorry, your browser doesn't support embedded videos.
+	</video>
+	<button onclick="playVid()" type="button">Play Video</button>
+	<button onclick="pauseVid()" type="button">Pause Video</button>
+
+	<!-- Trigger/Open The Modal -->
+	<button id="myBtn">Open Modal</button>
+
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+
+  	<!-- Modal content -->
+  	<div class="modal-content">
+    	<span class="close">&times;</span>
+    	<p>STOP! He who would cross the Bridge of Death must answer me these questions three, ere the other side he see.</p>
+		<p>What... is your name?</p>
+		<form>
+		<ul>
+			<li>
+				<input type="radio" id="questionOne1" name="answer" value="a">
+				<label for="questionOne1">A. Sir Lancelot of Camelot</label>
+			</li>
+			<li>
+				<input type="radio" id="questionOne2" name="answer" value="b">
+			    <label for="questionOne2">B. Robin of Camelot</label>
+			</li>
+			<li>
+				<input type="radio" id="questionOne3" name="answer" value="c">
+				<label for="questionOne3">C. Sir Galahad</label>
+			</li>
+			<li>
+				<input type="radio" id="questionOne4" name="answer" value="d">
+				<label for="questionOne4">A. King Arthur of the Britons</label>
+			</li>
+			<li>
+				<p id="questionOne" class="close">I am not afraid</p>
+			</li>
+		</ul>			
+		</form>
+  	</div>
 </body>
 </html>
